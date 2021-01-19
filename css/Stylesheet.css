@@ -2,6 +2,7 @@ body {
     background-image: url(../img/Background-01.png);
     background-repeat: no-repeat;
     background-size: contain;
+    min-height: 100%;
     margin: 0;
 }
 
@@ -22,7 +23,7 @@ h2 {
 }
 
 #banner nav {
-    padding-bottom: 240px;
+    padding-bottom: 140px;
 }
 
 
@@ -60,8 +61,9 @@ h2 {
     text-shadow:0px 0px 5px rgb(65, 155, 146);
 }
 
+
 #Sobre {
-    position: relative;
+   position: relative;
    justify-content: center;
    align-content: center; 
    margin-left: 10%;
@@ -166,6 +168,9 @@ p{
 
 .miniatura span{
     position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: lightyellow;
     padding: 5px;
     left: -1000px;
