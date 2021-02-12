@@ -187,7 +187,7 @@ p{
 
 .miniatura:hover span{
     visibility: visible;
-    top: -275;
+    top: -600px;
     left: 300px;
     z-index: 50;
 }
