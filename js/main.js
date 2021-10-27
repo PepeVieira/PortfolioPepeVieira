@@ -6,8 +6,8 @@ const map = {
 
     },
     "Sobre": () => {
-        removecontato ();
-        removeportifolio()
+        removecontato();
+        removeportifolio();
 
     },
     "Portfolio": () => {
@@ -16,6 +16,7 @@ const map = {
 
     }
 }
+
 map[who]();
     document.getElementById(who).style.display= "block"
 }
